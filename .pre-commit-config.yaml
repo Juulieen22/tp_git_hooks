@@ -6,6 +6,7 @@ repos:
     entry: python
     language: system
     args: [pre_commit_test.py]
+    stages: [prepare-commit-msg]
   - id: MyCommit
     name: Run my commits
     entry: python
