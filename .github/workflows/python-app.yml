@@ -25,4 +25,4 @@ jobs:
         python -m pip install --upgrade pip
         pip install pre-commit
     - name: Test with my precommmit
-      run: pre-commit --all
+      run: pre-commit run --all
