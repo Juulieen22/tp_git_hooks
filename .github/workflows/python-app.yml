@@ -26,4 +26,3 @@ jobs:
         pip install pre-commit
     - name: Test with my precommmit
       run: pre-commit --all
-        pytest
